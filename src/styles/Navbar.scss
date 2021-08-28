@@ -1,0 +1,65 @@
+@import "./Main.scss";
+
+$height: 40;
+$logo: 30;
+$padding: 10;
+
+* {
+}
+
+div.navbar {
+  height: #{$height}px;
+  margin: #{$margin}px;
+  padding-top: #{$padding}px;
+  padding-bottom: #{$padding}px;
+  background-color: #242e35;
+  border-radius: 10px;
+}
+
+div#navbar1 {
+  position: sticky;
+  top: #{$margin}px;
+}
+
+div#navbar2 {
+  position: sticky;
+  top: #{$height * 2}px;
+}
+
+#title {
+  font-family: "JetBrains Mono";
+  position: absolute;
+  color: white;
+  margin: 0px;
+  top: #{$padding}px;
+  left: 80px;
+}
+
+div.button {
+  width: #{$height}px;
+  height: #{$height}px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: absolute;
+  top: #{$padding}px;
+  background-color: #cec0af;
+  border-radius: 25%;
+}
+
+div.button:hover {
+  filter: brightness(1.2);
+}
+
+img.button-img {
+  position: relative;
+  left: #{($height - $logo) / 2}px;
+  top: #{($height - $logo) / 2}px;
+  width: #{$logo}px;
+  height: #{$logo}px;
+}
+
+p {
+  width: 200px;
+  font-size: large;
+  margin: 20px;
+}

@@ -1,0 +1,44 @@
+@import "./Main.scss";
+
+.cardgroup {
+  display: flex;
+  justify-content: right;
+}
+
+.card {
+  border: 5px solid #cec0af;
+  border-radius: 10px;
+  background-color: #242e35;
+  color: #cec0af;
+  margin: #{$margin}px;
+  padding: #{$padding}px;
+  font-family: JetBrains Mono;
+
+  flex: 1 1 auto;
+  max-width: 300px;
+}
+
+.card:hover {
+  //filter: brightness(1.2);
+  background-color: #2d02d0;
+}
+
+.card-href:hover {
+  background-color: #2d02d0;
+  color: #29ced4;
+  border-color: #29ced4;
+}
+
+h2.cardtitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-left: 5px;
+}
+
+.carddesc {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-left: 5px;
+}

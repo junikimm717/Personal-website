@@ -1,0 +1,21 @@
+<svg version="1.1"
+  baseProfile="full"
+  width="300"
+  height="200"
+  xmlns="http://www.w3.org/2000/svg" 
+  viewBox="0 0 60 60"
+>
+  <!--<circle cx="30" cy="30" r="30" fill="#0837d4"/>-->
+  <path d="M10 45 L50 45 L10 15 L10 45 Z"
+    stroke="black" 
+    stroke-width="4" 
+    stroke-linejoin="round"
+    fill="none"
+  />
+  <path d="M10 35 L20 35 L20 45"
+    stroke="black"
+    stroke-width="4"
+    stroke-linejoin="round"
+    fill="none"
+  />
+</svg>

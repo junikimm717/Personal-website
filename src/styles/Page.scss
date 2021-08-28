@@ -1,0 +1,12 @@
+@import "./Main.scss";
+
+.page {
+  margin: #{$margin}px;
+}
+
+h1.page h2.page {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-left: 0px;
+}
