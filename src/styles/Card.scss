@@ -1,8 +1,9 @@
 @import "./Main.scss";
 
 .cardgroup {
-  display: flex;
-  justify-content: right;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: left;
 }
 
 .card {
@@ -25,8 +26,8 @@
 
 .card-href:hover {
   background-color: #2d02d0;
-  color: #29ced4;
-  border-color: #29ced4;
+  color: #f0cad5;
+  border-color: #f0cad5;
 }
 
 h2.cardtitle {

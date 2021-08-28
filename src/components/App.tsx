@@ -13,7 +13,6 @@ function App() {
   return (
     <Router>
       <Navbar />
-
       <Particles>
         <Switch>
           <Route path="/achievements">

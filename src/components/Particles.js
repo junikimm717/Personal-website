@@ -45,7 +45,7 @@ const config = {
       enable: true,
       outMode: "bounce",
       random: false,
-      speed: 6,
+      speed: 2,
       straight: false,
     },
     number: {
@@ -63,10 +63,15 @@ const config = {
     },
     size: {
       random: true,
-      value: 5,
+      value: 2,
     },
   },
   detectRetina: true,
+  // adds background mode (not in example config)
+  backgroundMode: {
+    enable: true,
+    zIndex: -1,
+  },
 };
 
 export default function Component(props) {
