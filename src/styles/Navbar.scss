@@ -1,11 +1,10 @@
+@use 'sass:math';
+
 @import "./Main.scss";
 
 $height: 40;
 $logo: 30;
 $padding: 10;
-
-* {
-}
 
 div.navbar {
   height: #{$height}px;
@@ -52,8 +51,8 @@ div.button:hover {
 
 img.button-img {
   position: relative;
-  left: #{($height - $logo) / 2}px;
-  top: #{($height - $logo) / 2}px;
+  left: #{math.div(($height - $logo), 2)}px;
+  top: #{math.div(($height - $logo), 2)}px;
   width: #{$logo}px;
   height: #{$logo}px;
 }
