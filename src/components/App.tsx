@@ -7,13 +7,14 @@ import Contact from "../content/Contact";
 import Projects from "../content/Projects";
 import School from "../content/School";
 import NotFound from "../content/404";
+import Particles from "./Particles";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Navbar />
+    <Router>
+      <Navbar />
 
+      <Particles>
         <Switch>
           <Route path="/achievements">
             <Achievements />
@@ -34,8 +35,8 @@ function App() {
             <NotFound />
           </Route>
         </Switch>
-      </Router>
-    </>
+      </Particles>
+    </Router>
   );
 }
 
