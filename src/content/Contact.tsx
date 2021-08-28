@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar";
 import Page, { Description } from "../components/Page";
 
 const Contact = () => (
