@@ -71,7 +71,7 @@ const config = {
 
 export default function Component(props) {
   return (
-    <div className="particles" style={{ zIndex: -1 }}>
+    <div className="particles" style={{ zIndex: 1 }}>
       <Particles id="tsparticles" options={config}></Particles>
       <div className="inside">{props.children}</div>
     </div>
