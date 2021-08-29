@@ -11,22 +11,23 @@ const Projects = () => (
         title="Patternmatch"
         href="https://git.junickim.me/junikimm717/patternmatch"
       >
-        An R Script decided to help filter halogenated exposome clusters in
-        linear time (and multicore support on UNIX)
+        An R Script designed to help filter halogenated exposome clusters in
+        linear time (has multicore support on UNIX)
       </Card>
       <Card title="mt" href="https://gitlab.com/jpkg/mt">
-        A perl script for automatically opening meetings using a TOML
-        configuration file.
+        A Perl script for automatically opening meetings using a TOML
+        configuration file
       </Card>
       <Card
         title="Latin 1 Final Project"
         href="https://github.com/junikimm717/OLA11-Final-Project"
       >
-        A rudimentary API written in Flask + pymongo that can automatically
-        download vocabulary and conjugate it (only works for regular verbs).
+        A rudimentary API written in Flask + Pymongo that can automatically
+        download latin vocabulary and conjugate it (only works for regular verbs
+        and nouns)
       </Card>
       <Card title="Personal Website">
-        This website, written in React and SCSS.
+        This website, written in React and SCSS
       </Card>
     </CardGroup>
   </Page>
