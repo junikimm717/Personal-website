@@ -1,7 +1,9 @@
 @import "./Main.scss";
 
 .cardgroup {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   grid-auto-flow: column;
   justify-content: left;
 }

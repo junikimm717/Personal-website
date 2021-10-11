@@ -7,6 +7,10 @@ const Projects = () => (
       Below are some notable/landmark projects I have done so far
     </Description>
     <CardGroup>
+      <Card title="MAA Tester" href="https://maatester.com">
+        A Web App for keeping track of progress while preparing for math
+        contests.
+      </Card>
       <Card
         title="Patternmatch"
         href="https://git.junickim.me/junikimm717/patternmatch"
@@ -28,10 +32,6 @@ const Projects = () => (
       </Card>
       <Card title="Personal Website">
         This website, written in React and SCSS
-      </Card>
-      <Card title="MAA Tester" href="https://maatester.netlify.app">
-        A React/Firebase Web App that can store and automatically grade and save
-        progress on AMC and AIME exams.
       </Card>
     </CardGroup>
   </Page>
