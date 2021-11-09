@@ -29,7 +29,7 @@ const Achievements = () => (
       </Card>
       <Card
         title="2021 ACSL Gold Medalist"
-        href="https://www.scores.acsl.org/leaderboard/finals/i/g/"
+        href="https://www.scores.acsl.org/legacy/finals/2021/i/"
       >
         I receieved a Gold Medal in the National Final of the Intermediate
         Division of the American Computer Science League (ACSL) by scoring 40
